@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(226, 204, 204);
+    color: rgb(179, 107, 194);
+}
+
+.banner{
+    padding: 15px;
+    background-color: rgb(161, 136, 136);
+    height: 300px;
+    
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slogan{
+    color: rgb(221, 217, 154);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.nav{
+    background-color: rgb(166, 154, 166);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.nav a{
+    padding: 15px;
+    background-color: rgb(171, 159, 214);
+    text-decoration: none;
+}
+
+
+
+
+
+
+.cafe-recs{
+    padding: 15px;
+    /* background-color: rgb(32, 126, 32); */
+    width: 200px;
+    height: 250px;
+    border: 2px solid lightcoral;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.cafe-recs:hover{
+    /* background-color: aqua; */
+    box-shadow: 10px 10px 1px whitesmoke
+}
+
+
+.cafe-recs img{
+    object-fit: cover;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 2px solid rgb(109, 130, 173);
+    object-fit: cover;
+}
+
+.cafe-recs a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
+
+#cafe{
+    color:rgb(117, 108, 108);
+    padding: 10px;
+    /* background-color: rgb(218, 216, 208); */
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.bakery-recs{
+    width: 350px;
+    height: 100px;
+    border: 2px solid black;
+    padding: 25px;
+
+    transition: all 3s;
+
+    display:flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bakery-recs:hover {
+    background-color: rgb(236, 121, 138);
+    box-shadow: 10px 10px 1px rgb(172, 159, 162);
+    box-sizing: content-box;
+    -moz-box-align: baseline;
+}
+
+.bakery-recs img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+
+    background-position: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.bakery-recs a{
+    text-decoration: none;
+    color: rgb(50, 167, 206);
+}
+
+#bakery {
+    color:rgb(117, 148, 188);
+    padding: 10px;
+    /* background-color: rgb(195, 166, 166); */
+    
+
+
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.dessert-recs{
+    width: 300px;
+    height:150px;
+    
+    padding: 20px;
+
+    display:flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: all 3s;
+    background-color: rgb(215, 165, 165);
+}
+
+.dessert-recs:hover {
+    background-color: rgb(211, 201, 213);
+    box-decoration-break: slice;
+    box-sizing: content-box;
+    box-shadow: 10px 10px 1px;
+}
+
+.dessert-recs img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.dessert-recs a{
+    text-decoration: none;
+    color: rgb(230, 106, 106);
+    font-weight: bold;
+    text-shadow: 100px;
+}
+#dessert {
+    color: rgb(230, 121, 121);
+    padding: 10px;
+    /* background-color: rgb(232, 232, 185); */
+
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.footer{
+    padding: 20px;
+    background-color: rgb(175, 172, 172);
+}
+
+.wrapper{
+    padding: 15px;
+    /* background-color: rgb(128, 121, 118); */
+    text-align: center;
+}
